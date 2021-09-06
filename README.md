@@ -10,6 +10,6 @@
 
 ##  ScreenShots
 
-![image](https://telegra.ph/file/715447200918a09b30e04.jpg)
+![image](https://telegra.ph/file/7ea7f4b8f14684bae8257.jpg)
 
 <h1 align="center"><b> Thanks to everyone who helped</b></h1>
