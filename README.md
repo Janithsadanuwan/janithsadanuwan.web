@@ -1,4 +1,4 @@
-# [HansakaBro Official Website](https://www.hansakabro.tk/)
+# [HansakaBro Official Website](https://hansakabro.tk/)
 
 
 ![image](https://telegra.ph/file/804c8c55badd4018c60ea.jpg)
