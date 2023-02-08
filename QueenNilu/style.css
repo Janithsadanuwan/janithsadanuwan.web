@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 :root{
-    --main-color:#e2337c;
+    --main-color:#0051ff;
 }
 
 *{
@@ -22,7 +22,7 @@ html{
 }
 
 body{
-    background: #e6c9d5ec;
+    background: hsla(195, 57%, 86%, 0.925);
     padding-left: 30rem;
 }
 
@@ -675,5 +675,26 @@ header .follow a:hover{
     .experience .box-container .box{
         padding-right: 0;
     }
+
+    #readmore .content {
+        padding: 0 18px;
+        background-color: rgba(255, 255, 255, 0.175);
+        /*background-color: white;*/
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+      
+      #readmore .collapsible:after {
+        content: 'â–¼'; /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: white;
+        float: right;
+        margin-left: 5px;
+      }
+      
+      #readmore .active:after {
+        content: "â–²"; /* Unicode character for "minus" sign (-) */
+      }
 
 }
