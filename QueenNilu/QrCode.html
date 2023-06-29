@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta name="description" content="Scan the QR code to connect with whatsapp multi device" />
+          <link rel="shortcut icon" href="https://i.imgur.com/3jmBwdQ.jpeg" type="image/x-icon" />
+          <title>QR Code</title>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+          <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet" />
+          <style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+}
+body{
+  display: grid;
+  place-items: center;
+  background: #131419;
+}
+.clock{
+  background: #131419;
+  height: 120px;
+  
+  line-height: 120px;
+  text-align: center;
+  padding: 0 30px;
+  box-shadow: -3px -3px 7px rgba(255,255,255,0.05),
+               3px 3px 5px rgba(0,0,0,0.5);
+}
+.clock .display{
+  font-size: 60px;
+  color: cyan;
+  letter-spacing: 5px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit";
+    background: linear-gradient(-45deg, #ee52a5, #52aaee, #52eee4, #3f10e8, #55ee52);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+jsl.code {
+  overflow: hidden;
+	background: linear-gradient(-45deg, #ff00fc,#ff00e8 , #eb00ac, #00b8ff, hsl(303.1,100%,50%),#f500ff);
+  background-size: 400% 400%;
+  animation: gradient 8s ease infinite;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 110vh;
+	margin: 0px;
+	
+}
+
+
+main.code {
+    border-radius: 1em;
+    background-color: #141414;
+    width: 21em;
+    height: 28em;
+}
+
+div.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img.code_1 {
+    width: 19em;
+    border-radius: 0.3em;
+    margin-top: 1em;
+}
+
+h1.title,
+p.legend {
+    text-align: center;
+}
+
+h1.title {
+    color: #e8e8e8;
+    font-weight: 700;
+    font-size: 1.4em;
+    margin-top: 1em;
+    padding: 0em 1em;
+}
+
+p.legend {
+    color: hsl(220, 15%, 55%);
+    font-size: 1em;
+    font-weight: 400;
+    padding: 0em 1.1em;
+    margin-top: 0.1em;
+}
+.qrimg{
+position: relative;bottom:10rem;
+width: 4rem;
+margin: 0px;
+padding: 0px;
+}
+</style>
+     </head>
+     <body>
+          <main class="code">
+               <div class="card">
+                    <img id="qr-code" class="code_1" src="https://queen-nilu-qr.up.railway.app" alt="BLACK DRAGON QR" title="Scan the QR code to connect with whatsapp multi device" />
+                    <h1 class="title">Queen Nilu QR SCANNER</h1>                   
+                    <p class="legend">refresh this page to get qr code</p>
+               </div>
+          </main>
+     </body>
+</html>
